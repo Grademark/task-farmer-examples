@@ -1,0 +1,29 @@
+{
+  "name": "task-farmer-examples-typescript",
+  "version": "1.0.0",
+  "description": "Examples of using the Task Farmer library.",
+  "scripts": {
+    "start": "npm run multi1 && npm run multi2 && npm run single",
+    "multi1": "ts-node ./multi-core.1.ts",
+    "multi2": "ts-node ./multi-core.2.ts",
+    "single": "ts-node ./single-core.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Grademark/task-farmer-examples.git"
+  },
+  "author": "ashley@codecapers.com.au",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Grademark/task-farmer-examples/issues"
+  },
+  "homepage": "https://github.com/Grademark/task-farmer-examples#readme",
+  "devDependencies": {
+    "@types/node": "^11.11.0",
+    "ts-node": "^8.0.3",
+    "typescript": "^3.3.3333"
+  },
+  "dependencies": {
+    "task-farmer": "0.0.8"
+  }
+}
