@@ -4,7 +4,7 @@
 
 import * as os from "os";
 import { assert } from "console";
-import { ITask, Task, IScheduler,  } from "task-farmer";
+import { ITask, Task, IScheduler, SingleCoreScheduler } from "task-farmer";
 
 const taskA = Task.register(    // All tasks must be registered globally so they exist in both the master and worker processes.
     "TaskA",                    // Tasks must be named so they can be identified in the work proceses.

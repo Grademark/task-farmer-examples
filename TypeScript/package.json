@@ -24,6 +24,6 @@
     "typescript": "^3.3.3333"
   },
   "dependencies": {
-    "task-farmer": "0.0.8"
+    "task-farmer": "0.0.9"
   }
 }
